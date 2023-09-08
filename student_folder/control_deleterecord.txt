@@ -1,0 +1,9 @@
+package com.school.controller;
+
+import com.school.service.StudentService;
+
+public class DeleteRecord {
+	StudentService studentService = new StudentService();
+	boolean res = studentService.deletestudent(1);
+
+}
